@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * Created by Administrator on 17/06/19.
  */
-@WebServlet("/login.view")
+@WebServlet("/register.view")
 public class RegisterView extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
